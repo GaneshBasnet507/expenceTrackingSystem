@@ -1,0 +1,36 @@
+
+
+
+{% extends "master.html" %}
+{% load static %}
+
+{% load static %}  <!-- Load static tag to use static files -->
+
+{% block content %}
+<link rel ="stylesheet", type="text/css" href="{% static 'css/userdashboard.css'%}">
+    <body>
+        
+        <section class="main">
+        <div class="card">
+                    <h1> Expences</h1>
+                        <div class="c-body">
+                            <p >total expences</p>
+                           <button class="butt" onclick="window.location.href='booksuser.php'   ;">Add Expences</button>
+                        </div>
+           </section>
+           <section class="main">
+            <div class="card">
+                        <h1>History</h1>
+                            <div class="c-body">
+                                <p >History Details</p>
+                                <a href="{%url 'addexpence' %}"><button class="butt">Details</button></a>
+                            </a>
+
+                        </div> 
+                        </section> 
+               
+        
+
+         </body>
+         {% endblock %}
+         

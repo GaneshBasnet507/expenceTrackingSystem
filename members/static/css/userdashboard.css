@@ -1,0 +1,59 @@
+
+            section{
+                margin-top:200px;
+                display:inline-block;
+                margin-left: 400px;
+            }
+            .main{
+                
+        
+                padding:20px;
+                width:100x;
+
+            }
+            .card{
+                width:100%;
+                margin:10px;
+                background-color: aliceblue;
+                text-align: center;
+                border-radius: 20px;
+                padding-left:10px;
+                box-shadow:0 20px 35px red;
+            
+            }
+            p{
+                font-size:12px;
+            }
+            .butt{
+                background:red;
+                
+            }
+         header{
+            position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+            padding:20px 100px;
+            background-color:blue;
+            display:flex;
+            align-items: center;
+            float: left;
+            
+            
+        }
+        .lms{
+            color:aliceblue
+        
+        }
+              .but{
+            padding-left: 20px;
+            float:right;
+            text-align: right;
+            margin-left:1000px;
+            color: red;
+        }
+       
+        
+    
+    
+   

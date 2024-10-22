@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Expense Tracking System</title>
+    <!-- Link to the static CSS file -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <style>
+        #button {
+            background-color: green;
+            color: white;
+            height: 50px;
+            width: 200px;
+            border-radius: 25px;
+            font-size: 16px;
+            margin-top: 200px;
+            margin-left: 550px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="lms">Expense Tracking System</h2>
+        <nav class="navigation">
+            <a href="{% url 'members' %}">Home</a> 
+            <a href="foradmin.html">Admin</a>
+            <a href="{% url 'register' %}">Register</a>
+            <a href="{% url 'login' %}"><button>Login</button></a>
+        </nav>
+    </header>
+
+    {% block content %}
+    <p>Every great achievement begins with a vision. But vision alone is not enough. 
+    To turn our dreams into reality, we need to understand our resources. 
+    By tracking our expenses, we gain insight into our financial habits. We identify patterns,
+    discover areas where we can cut back, and ultimately, align our spending with our values and goals.</p>
+    {% endblock %}
+
+    <footer>
+        <p class="copyright">@CopyRight-2024 </p>
+    </footer>
+</body>
+</html>

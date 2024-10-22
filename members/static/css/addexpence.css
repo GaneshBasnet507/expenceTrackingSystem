@@ -1,0 +1,93 @@
+
+   
+    body {
+        background-color: #f7f7f7;
+    }
+
+    h1,
+    h2 {
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid #4CAF50;
+    }
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    input[type=submit]:hover {
+        background-color: #3e8e41;
+    }
+
+    input[type=button] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    input[type=button]:hover {
+        background-color: #3e8e41;
+    }
+    form {
+        width: 50%;
+        margin: 0 auto;
+        padding: 30px;
+        margin-top: 80px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #4CAF50;
+    background-color: #fff;
+    color: #333; 
+    font-size: 16px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    }
+
+select:hover {
+    border-color: #3e8e41; 
+}
+
+
+option:checked {
+    background-color: #4CAF50; 
+    color: #fff; 
+}
+
+
+option {
+    background-color: #fff; 
+    color: #333; 
+}
+
+
+option:hover {
+    background-color: #f0f0f0; 
+    color: #333;
+}

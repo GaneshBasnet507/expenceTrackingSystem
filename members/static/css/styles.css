@@ -1,0 +1,56 @@
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 100px;
+    background-color: red;
+    display:flex;
+    align-items: center;
+    float: left;
+    z-index: 99;
+    
+}
+.lms{
+    color:aliceblue
+
+}
+.navigation{
+    float:right;
+    color:white;
+    font-weight:500;
+    margin-left:500px;
+    text-decoration: none;
+    padding-left: 40px ;
+    display: inline-block;
+    
+
+
+}
+.copyright{
+    text-align:left;
+    justify-content: flex-start; /* Aligns the content to the left horizontally */
+    align-items: flex-end; /* Aligns the content to the bottom vertically */
+    height: 100px; /
+
+}
+
+a{
+    padding-left: 40px;
+
+}
+body{
+    background-image:url('expences.jpg');
+    background-repeat:no-repeat;
+    background-size: cover; /* This makes the image cover the entire body */
+    background-position: center;
+
+}
+.div{
+    float:left;
+    display:inline-block;
+    
+}
+li{
+    
+}

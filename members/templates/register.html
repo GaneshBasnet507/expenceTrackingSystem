@@ -1,0 +1,31 @@
+
+<!-- register.html -->
+{% extends "master.html" %}
+
+{% load static %}  <!-- Load static tag to use static files -->
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/register.css' %}">
+
+<div class="container">
+    <form action="" method="POST">
+        {% csrf_token %}
+       <!-- Automatically renders the form fields -->
+
+        <label for="uid"><b>UserId</b></label>
+        <input type="text" name="uid" placeholder="Enter user ID">
+		<label for="uname"><b>Username</b></label>
+        <input type="text" name="username" placeholder="Enter user ID">
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" name="password" placeholder="Enter password">
+
+        <label for="cpsw"><b>Confirm Password</b></label>
+        <input type="password" name="cpassword" placeholder="Enter confirm password">
+		
+
+        <button type="submit" name="register">Register</button>
+    </form>
+</div>
+{% endblock %}
+
